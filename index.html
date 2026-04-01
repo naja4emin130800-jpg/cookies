@@ -93,38 +93,7 @@ section{
       cursor: pointer;
       margin-top: 20px;
     }
-  </style>
 
-<body>
-
-  <!-- HALAMAN 1 -->
-  <div id="page1" class="page active">
-    <h2>Menu Produk</h2>
-    <p>Ini halaman pertama</p>
-
-    <button class="btn" onclick="pindah('page2')">Beli</button>
-  </div>
-
-  <!-- HALAMAN 2 -->
-  <div id="page2" class="page">
-    <h2>Checkout</h2>
-    <p>Ini halaman kedua</p>
-
-    <button class="btn" onclick="pindah('page1')">Kembali</button>
-  </div>
-
-  <script>
-    function pindah(id) {
-      document.getElementById("page1").classList.remove("active");
-      document.getElementById("page2").classList.remove("active");
-      document.getElementById(id).classList.add("active");
-    }
-  
-.title{
-  text-align:center;
-  color:var(--coklat);
-  margin-bottom:25px;
-}
 
 /* MENU */
 .menu{
